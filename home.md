@@ -97,3 +97,15 @@ It is important to highlight that this attack is highly situational: the data ob
 Furthermore, it should be noted that executing this attack required only a few commands and no complex strategic effort. This highlights that high-impact threats do not necessarily require sophisticated skills or complicated strategies to be executed. Unsurprisingly, vulnerabilities that combine a maximum ease of exploitation with critical potential damage are classified as the most dangerous ones. The Heartbleed vulnerability is definitely one of them.   
 
 Finally, it is crucial to emphasize that Heartbleed was a software code implementation bug rather than a logical or structural flaw within the TLS protocol itself. This distinction allowed for an immediate and effective mitigation, centered around the release of a corrective update. It was enough to update the OpenSSL libraries to a patched version to fully resolve the vulnerability, which is why this bug is today, widely resolved and obsolete.
+
+
+---
+
+
+## REFERENCES & SOURCES
+
+The following resources and documentation were utilized for the preparation, deployment and execution of this laboratory activity:
+ 
+* **Vulnerable Environment:** Vulhub Repository for CVE-2014-0160 – [https://github.com/vulhub/vulhub/tree/master/openssl/CVE-2014-0160](https://github.com/vulhub/vulhub/tree/master/openssl/CVE-2014-0160)
+* **Network Scanner Documentation:** Nmap Scripting Engine (NSE) `ssl-heartbleed` Reference – [https://nmap.org/nsedoc/scripts/ssl-heartbleed.html](https://nmap.org/nsedoc/scripts/ssl-heartbleed.html)
+* **Containerization Platform:** Docker Compose Official Documentation – [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
